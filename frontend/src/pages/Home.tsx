@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 // - Detects if user is logged in (JWT in localStorage) and swaps CTA
 // - Keep it minimal so it runs out-of-the-box
 
+// Main function for Home page
 export default function Home() {
   const isAuthed = Boolean(localStorage.getItem("access"));
 
