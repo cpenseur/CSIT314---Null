@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { authService } from '../lib/auth';
 
+// Main function for Login page
 export default function Login() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
